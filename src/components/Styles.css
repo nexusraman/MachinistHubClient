@@ -1,0 +1,78 @@
+.card{
+    padding: 10px;
+    margin: 20px;
+}
+
+.formButton{
+   float:right;
+display:'flex'
+
+}
+.clientCard{
+    min-width:'200px';
+    margin:20px
+}
+
+
+.baseFlex{
+    
+  display:flex;
+  justify-content: space-between;
+}
+
+.dashboardCard{
+  width:  140px;
+}
+
+.dashboardCardHeader{
+  width:200px;
+}
+.tableB{
+  overflow: auto;
+  height: 200px;
+}
+
+.NoData{
+  font-weight: 600;
+text-align: center;
+width: 100%;
+}
+
+.MarginTop{
+  margin-top:20px
+}
+
+.drawer{
+  width:200px;
+}
+
+.drawerButton{
+  margin: 10px;
+}
+
+.DrawerList{
+  margin-left: 10px;
+}
+.borderBox{
+  border:1px black solid;
+  border-radius: 5px;
+  padding:30px;
+  width:300px;
+  background:white;
+  margin-top:100px;
+  margin-bottom:100px;
+ 
+}
+
+.image{
+  background-image: url('../Images/machine.jpg');
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
